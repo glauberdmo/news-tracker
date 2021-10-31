@@ -15,6 +15,9 @@ class ArticlesScrapper:
         self.url = self._get_url()
         self.class_tags = self._get_class_tags()
 
+    def __repr__(self) -> str:
+        return f"ArticlesScrapper({self.site_name})"
+        
     def _get_url(self)->str:
         import json        
         with open(self.tags_settings) as json_file:
