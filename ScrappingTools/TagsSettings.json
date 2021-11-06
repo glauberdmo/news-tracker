@@ -1,0 +1,23 @@
+{   
+    "folha":{
+        "url":"http://www.folha.uol.com.br/",
+        "tags":[
+            "c-main-headline__title",
+            "c-headline__title"
+        ]
+    },
+    "uol":{
+            "url":"http://www.uol.com.br/",
+            "tags":[
+                "title__element headlineMain__title",
+                "title__element headlineSub__content__title",
+                "title__element"]
+    },
+    "g1":{
+            "url":"https://g1.globo.com/",
+            "tags":[
+                "bstn-hl-title gui-color-primary gui-color-hover gui-color-primary-bg-after",
+                "feed-post-link gui-color-primary gui-color-hover"
+            ]
+    }
+}
